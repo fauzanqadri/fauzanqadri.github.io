@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/css/syntax.css">
+		<link rel="stylesheet" href="/css/bootstrap.min.css" media="all">
+		<link rel="stylesheet" href="/css/font-awesome.min.css" media="all">
+        <!--[if IE 7]>
+        <link rel="stylesheet" media="all" href="css/font-awesome-ie7.min.css" />
+        <![endif]-->
+		<link rel="stylesheet" href="/css/ribon.css" media="all">
+		<style type="text/css">
+			body, html {
+				margin: 0;
+				padding: 20px;
+				background-image: url(/img/background.png);
+				font: 300 14px/21px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+			}
+			.inner {
+/*				padding: 10px;*/
+				padding-top: 10px;
+				padding-right: 30px;
+				padding-left: 30px;
+				padding-bottom: 40px;
+				background-color: white;
+				border: 1px solid #CCC;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				-webkit-box-shadow: 1px 1px 3px 3px rgba(221,221,221,1);
+				-moz-box-shadow: 1px 1px 3px 3px rgba(221,221,221,1);
+				box-shadow: 1px 1px 5px 3px rgba(221,221,221,1);
+			}
+			header {
+				position: relative;
+				left: -11px;
+				z-index: 1;
+				margin-bottom: 90px;
+			}
+			
+			
+		</style>
+    </head>
+    <body>
+		<div class="container">
+			<div class="inner">
+				<header>
+                	<div class="ribbon">
+                		<div class="ribbon-stitches-top"></div>
+                    	<strong class="ribbon-content">
+                    		<h1>{{ site.name }}</h1>
+                    	</strong>
+                		<div class="ribbon-stitches-bottom"></div>
+                	</div>
+				</header>
+				<p>Hello World</p>
+			</div>
+		</div>
+    </body>
+</html>
