@@ -2,17 +2,19 @@
 layout: default
 title: Fauzan Qadri
 ---
-{% for post in site.posts %}
-	<div class="post">
-		<h3 class="title">{{ post.title }}</h3>
-		<hr/>
-        <blockquote>
-        	<b>Posted on</b>: {{ post.date | date_to_string }}
-        </blockquote>
-		<hr/>
-		<div class="post-excerpt">
-			{{ post.excerpt }}<a href="{{post.url}}">Read More</a>
+<div id="main-content">
+	{% for post in site.posts %}
+		<div class="post">
+			<h3 class="title">{{ post.title }}</h3>
+			<hr/>
+	        <blockquote>
+	        	<b>Posted on</b>: {{ post.date | date_to_string }}
+	        </blockquote>
+			<hr/>
+			<div class="post-excerpt">
+				{{ post.excerpt }}<a href="{{post.url}}">Read More</a>
+			</div>
+			<hr/>
 		</div>
-		<hr/>
-	</div>
-{% endfor %}
+	{% endfor %}
+</div>
