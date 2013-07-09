@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/* CSS Document */
+.path-menu #menu-button {
+	display:none;
+}
+.path-menu .circle-container {
+	width: 49px;
+	height: 49px;
+	margin: 0px;
+	padding: 1px;
+	background: white;
+	border: 1px solid #e9e9e9;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 24px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px 1px rgba(221,221,221,0.34);
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(221,221,221,0.34);
+	-moz-box-shadow: 1px 1px 5px 1px rgba(221,221,221,0.34);
+}
+.path-menu .circle-container .circle {
+	top: 2px;
+	left: 2px;
+	z-index: 2;
+	position: relative;
+	width: 45px;
+	height: 45px;
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	color: #FFF;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+	background: #d64b4b;
+   	background: -webkit-gradient(linear, left top, left bottom, from(#d64b4b), to(#ab2c2c));
+   	background: -webkit-linear-gradient(top, #d64b4b, #ab2c2c);
+   	background: -moz-linear-gradient(top, #d64b4b, #ab2c2c);
+   	background: -ms-linear-gradient(top, #d64b4b, #ab2c2c);
+   	background: -o-linear-gradient(top, #d64b4b, #ab2c2c);
+   	background-image: -ms-linear-gradient(top, #d64b4b 0%, #ab2c2c 100%);
+	border: none;
+	
+}	
+.path-menu #menu-button:checked ~ label .circle {
+	-webkit-animation-name: button-press;
+   	-webkit-animation-duration: 100ms;
+   	-webkit-animation-timing-function: linear;
+   	-moz-animation-name: button-press;
+    -moz-animation-duration: 100ms;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: button-press;
+    -ms-animation-duration: 100ms;
+    -ms-animation-timing-function: linear;
+    -o-transition: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform:rotate(-45deg)
+}
+.path-menu #menu-button:not(:checked) ~ label .circle {
+	-webkit-animation-name: button-repress;
+   	-webkit-animation-duration: 100ms;
+   	-webkit-animation-timing-function: linear;
+   	-moz-animation-name: button-repress;
+    -moz-animation-duration: 100ms;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: button-repress;
+    -ms-animation-duration: 100ms;
+    -ms-animation-timing-function: linear;
+    -o-transition: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform:rotate(0deg)
+}
+
+.path-menu ul {
+	display: block;
+	text-decoration: none;
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+}
+.path-menu ul li{
+	top: 14px;
+	left: 14px;
+	position: absolute;
+
+	display: block;
+  	height: 26px;
+  	width: 26px;
+  	color: white;
+  	text-align: center;
+  	line-height: 26px;
+  	font-size: 18px;
+  	-webkit-box-shadow: 0 0 0 4px white, 0 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 1px black;
+  	-moz-box-shadow: 0 0 0 4px white, 0 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 1px black;
+  	box-shadow: 0 0 0 4px white, 0 0 0 5px rgba(0, 0, 0, 0.3), inset 0 0 1px black;
+  	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #433f3c), color-stop(100%, #44403d));
+  	background-image: -webkit-linear-gradient(#433f3c, #44403d);
+  	background-image: -moz-linear-gradient(#433f3c, #44403d);
+  	background-image: -o-linear-gradient(#433f3c, #44403d);
+  	background-image: -ms-linear-gradient(#433f3c, #44403d);
+  	background-image: linear-gradient(#433f3c, #44403d);
+  	-webkit-border-radius: 13px;
+  	-moz-border-radius: 13px;
+  	-ms-border-radius: 13px;
+  	-o-border-radius: 13px;
+  	border-radius: 13px;
+	-webkit-transform-style: preserve-3d;
+  	-moz-transform-style: preserve-3d;
+  	-ms-transform-style: preserve-3d;
+  	-o-transform-style: preserve-3d;
+  	transform-style: preserve-3d;
+}
+
+.path-menu ul li a{
+	text-decoration:none;
+	color: white;
+}
+
+.path-menu #menu-button:checked ~ .items li:nth-child(5) {
+	-webkit-animation-name: appear-1;
+  	-moz-animation-name: appear-1;
+  	-ms-animation-name: appear-1;
+  	-o-animation-name: appear-1;
+  	animation-name: appear-1;
+  	-webkit-animation-duration: 240ms;
+  	-moz-animation-duration: 240ms;
+  	-ms-animation-duration: 240ms;
+  	-o-animation-duration: 240ms;
+  	animation-duration: 240ms;
+  	-webkit-animation-iteration-count: 1;
+  	-moz-animation-iteration-count: 1;
+  	-ms-animation-iteration-count: 1;
+  	-o-animation-iteration-count: 1;
+  	animation-iteration-count: 1;
+  	-webkit-animation-fill-mode: forwards;
+  	-moz-animation-fill-mode: forwards;
+  	-ms-animation-fill-mode: forwards;
+  	-o-animation-fill-mode: forwards;
+  	animation-fill-mode: forwards;
+  	-webkit-animation-delay: 20ms;
+  	-moz-animation-delay: 20ms;
+  	-ms-animation-delay: 20ms;
+  	-o-animation-delay: 20ms;
+  	animation-delay: 20ms;
+}
+
+.path-menu #menu-button:not(:checked) ~ .items li:nth-child(5) {
+	-webkit-animation-name: disappear-1;
+  	-moz-animation-name: disappear-1;
+  	-ms-animation-name: disappear-1;
+  	-o-animation-name: disappear-1;
+  	animation-name: disappear-1;
+  	-webkit-animation-duration: 387.5ms;
+  	-moz-animation-duration: 387.5ms;
+  	-ms-animation-duration: 387.5ms;
+  	-o-animation-duration: 387.5ms;
+  	animation-duration: 387.5ms;
+  	-webkit-animation-iteration-count: 1;
+  	-moz-animation-iteration-count: 1;
+  	-ms-animation-iteration-count: 1;
+  	-o-animation-iteration-count: 1;
+  	animation-iteration-count: 1;
+  	-webkit-animation-fill-mode: forwards;
+  	-moz-animation-fill-mode: forwards;
+  	-ms-animation-fill-mode: forwards;
+  	-o-animation-fill-mode: forwards;
+  	animation-fill-mode: forwards;
+}
+.path-menu #menu-button:checked ~ .items li:nth-child(4) {
+	-webkit-animation-name: appear-2;
+  	-moz-animation-name: appear-2;
+  	-ms-animation-name: appear-2;
+  	-o-animation-name: appear-2;
+  	animation-name: appear-2;
+  	-webkit-animation-duration: 240ms;
+  	-moz-animation-duration: 240ms;
+  	-ms-animation-duration: 240ms;
+  	-o-animation-duration: 240ms;
+  	animation-duration: 240ms;
+  	-webkit-animation-iteration-count: 1;
+  	-moz-animation-iteration-count: 1;
+  	-ms-animation-iteration-count: 1;
+  	-o-animation-iteration-count: 1;
+  	animation-iteration-count: 1;
+  	-webkit-animation-fill-mode: forwards;
+  	-moz-animation-fill-mode: forwards;
+  	-ms-animation-fill-mode: forwards;
+  	-o-animation-fill-mode: forwards;
+  	animation-fill-mode: forwards;
+  	-webkit-animation-delay: 40ms;
+  	-moz-animation-delay: 40ms;
+  	-ms-animation-delay: 40ms;
+  	-o-animation-delay: 40ms;
+  	animation-delay: 40ms;
+}
+
+.path-menu #menu-button:not(:checked) ~ .items li:nth-child(4){
+	  -webkit-animation-name: disappear-2;
+  -moz-animation-name: disappear-2;
+  -ms-animation-name: disappear-2;
+  -o-animation-name: disappear-2;
+  animation-name: disappear-2;
+  -webkit-animation-duration: 411.125ms;
+  -moz-animation-duration: 411.125ms;
+  -ms-animation-duration: 411.125ms;
+  -o-animation-duration: 411.125ms;
+  animation-duration: 411.125ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.path-menu #menu-button:checked ~ .items li:nth-child(3){
+	  -webkit-animation-name: appear-3;
+  -moz-animation-name: appear-3;
+  -ms-animation-name: appear-3;
+  -o-animation-name: appear-3;
+  animation-name: appear-3;
+  -webkit-animation-duration: 240ms;
+  -moz-animation-duration: 240ms;
+  -ms-animation-duration: 240ms;
+  -o-animation-duration: 240ms;
+  animation-duration: 240ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 60ms;
+  -moz-animation-delay: 60ms;
+  -ms-animation-delay: 60ms;
+  -o-animation-delay: 60ms;
+  animation-delay: 60ms;
+}
+
+.path-menu #menu-button:not(:checked) ~ .items li:nth-child(3){
+	  -webkit-animation-name: disappear-3;
+  -moz-animation-name: disappear-3;
+  -ms-animation-name: disappear-3;
+  -o-animation-name: disappear-3;
+  animation-name: disappear-3;
+  -webkit-animation-duration: 443.019ms;
+  -moz-animation-duration: 443.019ms;
+  -ms-animation-duration: 443.019ms;
+  -o-animation-duration: 443.019ms;
+  animation-duration: 443.019ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.path-menu #menu-button:checked ~ .items li:nth-child(2){
+	  -webkit-animation-name: appear-4;
+  -moz-animation-name: appear-4;
+  -ms-animation-name: appear-4;
+  -o-animation-name: appear-4;
+  animation-name: appear-4;
+  -webkit-animation-duration: 240ms;
+  -moz-animation-duration: 240ms;
+  -ms-animation-duration: 240ms;
+  -o-animation-duration: 240ms;
+  animation-duration: 240ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 80ms;
+  -moz-animation-delay: 80ms;
+  -ms-animation-delay: 80ms;
+  -o-animation-delay: 80ms;
+  animation-delay: 80ms;
+}
+.path-menu #menu-button:not(:checked) ~ .items li:nth-child(2){
+	  -webkit-animation-name: disappear-4;
+  -moz-animation-name: disappear-4;
+  -ms-animation-name: disappear-4;
+  -o-animation-name: disappear-4;
+  animation-name: disappear-4;
+  -webkit-animation-duration: 486.075ms;
+  -moz-animation-duration: 486.075ms;
+  -ms-animation-duration: 486.075ms;
+  -o-animation-duration: 486.075ms;
+  animation-duration: 486.075ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.path-menu #menu-button:checked ~ .items li:nth-child(1){
+	  -webkit-animation-name: appear-5;
+  -moz-animation-name: appear-5;
+  -ms-animation-name: appear-5;
+  -o-animation-name: appear-5;
+  animation-name: appear-5;
+  -webkit-animation-duration: 240ms;
+  -moz-animation-duration: 240ms;
+  -ms-animation-duration: 240ms;
+  -o-animation-duration: 240ms;
+  animation-duration: 240ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+.path-menu #menu-button:not(:checked) ~ .items li:nth-child(1){
+	  -webkit-animation-name: disappear-5;
+  -moz-animation-name: disappear-5;
+  -ms-animation-name: disappear-5;
+  -o-animation-name: disappear-5;
+  animation-name: disappear-5;
+  -webkit-animation-duration: 544.202ms;
+  -moz-animation-duration: 544.202ms;
+  -ms-animation-duration: 544.202ms;
+  -o-animation-duration: 544.202ms;
+  animation-duration: 544.202ms;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}

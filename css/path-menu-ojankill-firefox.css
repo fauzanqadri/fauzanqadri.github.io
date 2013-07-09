@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+.path-menu #menu-button:checked ~ .items li:nth-child(5){
+	-moz-animation-name:appear1;
+	-moz-animation-duration:240ms;
+	-moz-animation-iteration-count:1;
+	-moz-animation-fill-mode:forwards;
+	-moz-animation-delay:20ms;
+}
+.path-menu #menu-button:not(:checked) ~ .items li:nth-child(5){
+	-moz-animation-name:disappear1;
+	-moz-animation-duration:387.5ms;
+	-moz-animation-iteration-count:1;
+	-moz-animation-fill-mode:forwards
+}
+@-moz-keyframes appear1{
+	0%{
+		-moz-transform:translate(0,0) rotate(270deg);
+		-moz-animation-timing-function:cubic-bezier(1,0.6,0.57,0.75)
+	}
+	80%{
+		-moz-animation-timing-function:cubic-bezier(0.45,0.97,0.51,0.78);
+		-moz-transform:translate(228px,-30px) rotate(0deg)
+	}
+	100%{
+		-moz-transform:translate(198px,-26px)
+	}
+}
+@-moz-keyframes disappear1{
+	0%{
+		-moz-transform:translate(198px,-26px) rotate(0deg);
+		-moz-animation-timing-function:cubic-bezier(1,0.6,0.57,0.75)
+	}
+	70%{
+		-moz-transform:translate(228px,-30px) rotate(360deg);
+		-moz-animation-timing-function:cubic-bezier(0.45,0.97,0.51,0.78)
+	}
+	100%{
+		-moz-transform:translate(0,0) rotate(540deg)
+	}
+}

@@ -1,0 +1,1176 @@
+@-moz-keyframes button-press {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(-45deg); }
+}
+@-webkit-keyframes button-press {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(-45deg); }
+}
+@keyframes button-press {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(-45deg);}
+}
+
+@-moz-keyframes button-repress {
+    from { -moz-transform: rotate(-45deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes button-repress {
+    from { -webkit-transform: rotate(-45deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes button-repress {
+    from {transform:rotate(-45deg);}
+    to {transform:rotate(0deg);}
+}
+@-moz-keyframes appear-1 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -moz-transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(198px, -26px, 0px);
+    transform: translate3d(198px, -26px, 0px);
+  }
+}
+
+@-webkit-keyframes appear-1 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -webkit-transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(198px, -26px, 0px);
+    transform: translate3d(198px, -26px, 0px);
+  }
+}
+
+@-o-keyframes appear-1 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -o-transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(198px, -26px, 0px);
+    transform: translate3d(198px, -26px, 0px);
+  }
+}
+
+@-ms-keyframes appear-1 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -ms-transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(198px, -26px, 0px);
+    transform: translate3d(198px, -26px, 0px);
+  }
+}
+
+@keyframes appear-1 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    transform: translate3d(228px, -30px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    transform: translate3d(198px, -26px, 0px);
+  }
+}
+
+@-moz-keyframes disappear-1 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -moz-transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-webkit-keyframes disappear-1 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -webkit-transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-o-keyframes disappear-1 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -o-transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-ms-keyframes disappear-1 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -ms-transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@keyframes disappear-1 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    transform: translate3d(198px, -26px, 0px) rotateZ(0deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    transform: translate3d(228px, -30px, 0px) rotateZ(360deg);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-moz-keyframes appear-2 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -moz-transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(185px, -77px, 0px);
+    transform: translate3d(185px, -77px, 0px);
+  }
+}
+
+@-webkit-keyframes appear-2 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -webkit-transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(185px, -77px, 0px);
+    transform: translate3d(185px, -77px, 0px);
+  }
+}
+
+@-o-keyframes appear-2 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -o-transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(185px, -77px, 0px);
+    transform: translate3d(185px, -77px, 0px);
+  }
+}
+
+@-ms-keyframes appear-2 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -ms-transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(185px, -77px, 0px);
+    transform: translate3d(185px, -77px, 0px);
+  }
+}
+
+@keyframes appear-2 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    transform: translate3d(213px, -89px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    transform: translate3d(185px, -77px, 0px);
+  }
+}
+
+@-moz-keyframes disappear-2 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -moz-transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-webkit-keyframes disappear-2 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -webkit-transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-o-keyframes disappear-2 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -o-transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-ms-keyframes disappear-2 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -ms-transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@keyframes disappear-2 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    transform: translate3d(185px, -77px, 0px) rotateZ(0deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    transform: translate3d(213px, -89px, 0px) rotateZ(360deg);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-moz-keyframes appear-3 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -moz-transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(159px, -122px, 0px);
+    transform: translate3d(159px, -122px, 0px);
+  }
+}
+
+@-webkit-keyframes appear-3 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -webkit-transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(159px, -122px, 0px);
+    transform: translate3d(159px, -122px, 0px);
+  }
+}
+
+@-o-keyframes appear-3 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -o-transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(159px, -122px, 0px);
+    transform: translate3d(159px, -122px, 0px);
+  }
+}
+
+@-ms-keyframes appear-3 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -ms-transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(159px, -122px, 0px);
+    transform: translate3d(159px, -122px, 0px);
+  }
+}
+
+@keyframes appear-3 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    transform: translate3d(183px, -140px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    transform: translate3d(159px, -122px, 0px);
+  }
+}
+
+@-moz-keyframes disappear-3 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -moz-transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-webkit-keyframes disappear-3 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -webkit-transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-o-keyframes disappear-3 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -o-transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-ms-keyframes disappear-3 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -ms-transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@keyframes disappear-3 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    transform: translate3d(159px, -122px, 0px) rotateZ(0deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    transform: translate3d(183px, -140px, 0px) rotateZ(360deg);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-moz-keyframes appear-4 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -moz-transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(122px, -159px, 0px);
+    transform: translate3d(122px, -159px, 0px);
+  }
+}
+
+@-webkit-keyframes appear-4 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -webkit-transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(122px, -159px, 0px);
+    transform: translate3d(122px, -159px, 0px);
+  }
+}
+
+@-o-keyframes appear-4 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -o-transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(122px, -159px, 0px);
+    transform: translate3d(122px, -159px, 0px);
+  }
+}
+
+@-ms-keyframes appear-4 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -ms-transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(122px, -159px, 0px);
+    transform: translate3d(122px, -159px, 0px);
+  }
+}
+
+@keyframes appear-4 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    transform: translate3d(140px, -183px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    transform: translate3d(122px, -159px, 0px);
+  }
+}
+
+@-moz-keyframes disappear-4 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -moz-transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-webkit-keyframes disappear-4 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -webkit-transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-o-keyframes disappear-4 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -o-transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-ms-keyframes disappear-4 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -ms-transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@keyframes disappear-4 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    transform: translate3d(122px, -159px, 0px) rotateZ(0deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    transform: translate3d(140px, -183px, 0px) rotateZ(360deg);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-moz-keyframes appear-5 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -moz-transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(77px, -185px, 0px);
+    transform: translate3d(77px, -185px, 0px);
+  }
+}
+
+@-webkit-keyframes appear-5 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -webkit-transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(77px, -185px, 0px);
+    transform: translate3d(77px, -185px, 0px);
+  }
+}
+
+@-o-keyframes appear-5 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -o-transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(77px, -185px, 0px);
+    transform: translate3d(77px, -185px, 0px);
+  }
+}
+
+@-ms-keyframes appear-5 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    -ms-transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(77px, -185px, 0px);
+    transform: translate3d(77px, -185px, 0px);
+  }
+}
+
+@keyframes appear-5 {
+  /* line 45, ../sass/app.scss */
+  0% {
+    transform: translate3d(0, 0, 0px) rotateZ(270deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 49, ../sass/app.scss */
+  80% {
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    transform: translate3d(89px, -213px, 0px) rotateZ(0deg);
+  }
+
+  /* line 53, ../sass/app.scss */
+  100% {
+    transform: translate3d(77px, -185px, 0px);
+  }
+}
+
+@-moz-keyframes disappear-5 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -moz-transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    -moz-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -moz-transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    -moz-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -moz-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-webkit-keyframes disappear-5 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -webkit-transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -webkit-transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    -webkit-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -webkit-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-o-keyframes disappear-5 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -o-transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    -o-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -o-transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    -o-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -o-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@-ms-keyframes disappear-5 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    -ms-transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    -ms-animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    -ms-transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    -ms-animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    -ms-transform: translate3d(0, 0, 0px) rotateZ(540deg);
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+@keyframes disappear-5 {
+  /* line 59, ../sass/app.scss */
+  0% {
+    transform: translate3d(77px, -185px, 0px) rotateZ(0deg);
+    animation-timing-function: cubic-bezier(1, 0.6, 0.57, 0.75);
+  }
+
+  /* line 63, ../sass/app.scss */
+  70% {
+    transform: translate3d(89px, -213px, 0px) rotateZ(360deg);
+    animation-timing-function: cubic-bezier(0.45, 0.97, 0.51, 0.78);
+  }
+
+  /* line 67, ../sass/app.scss */
+  100% {
+    transform: translate3d(0, 0, 0px) rotateZ(540deg);
+  }
+}
+
+/*firefox-keyframes */
