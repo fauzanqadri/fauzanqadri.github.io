@@ -9,38 +9,11 @@
         <!--[if IE 7]>
         <link rel="stylesheet" media="all" href="css/font-awesome-ie7.min.css" />
         <![endif]-->
+        <link rel="stylesheet" media="all" href="/css/path-menu-ojankill.css">
+        <link rel="stylesheet" media="all" href="/css/path-menu-ojankill-firefox.css">
+        <link rel="stylesheet" media="all" href="/css/path-menu-ojankill-keyframes.css">
 		<link rel="stylesheet" href="/css/ribon.css" media="all">
-		<style type="text/css">
-			body, html {
-				margin: 0;
-				padding: 20px;
-				background-image: url(/img/background.png);
-				font: 300 14px/21px "Helvetica Neue", "Helvetica", Arial, sans-serif;
-			}
-			.inner {
-/*				padding: 10px;*/
-				padding-top: 10px;
-				padding-right: 30px;
-				padding-left: 30px;
-				padding-bottom: 40px;
-				background-color: white;
-				border: 1px solid #CCC;
-				-webkit-border-radius: 5px;
-				-moz-border-radius: 5px;
-				border-radius: 5px;
-				-webkit-box-shadow: 1px 1px 3px 3px rgba(221,221,221,1);
-				-moz-box-shadow: 1px 1px 3px 3px rgba(221,221,221,1);
-				box-shadow: 1px 1px 5px 3px rgba(221,221,221,1);
-			}
-			header {
-				position: relative;
-				left: -11px;
-				z-index: 1;
-				margin-bottom: 90px;
-			}
-			
-			
-		</style>
+		<link rel="stylesheet" href="/css/main.css" media="all">
     </head>
     <body>
 		<div class="container">
@@ -54,8 +27,46 @@
                 		<div class="ribbon-stitches-bottom"></div>
                 	</div>
 				</header>
-				<p>Hello World</p>
+				<div id="main-content">
+					{{ content }}
+				</div>
 			</div>
+			<footer><small>Fauzan Qadri</small></footer>
+		</div>
+		<div id="navbar">
+        	<div class="path-menu">
+            	<input type="checkbox" id="menu-button">  <!-- Hidden -->
+                <label for="menu-button">
+                	<div class="circle-container">
+                    	<button class="circle">
+                    		<i class="icon-plus icon-2x"></i>
+                    	</button>
+                    </div>
+                </label>
+                <ul class="items">
+                	<li><a id="home" title="Home" href="/"><i class="icon-home"></i></a></li>
+                    <li><a id="contact" title="Contact Me" href="mailto:ojankill@gmail.com"><i class="icon-mobile-phone"></i></a></li>
+                    <li><a id="about" title="About me" href="/about.html"><i class="icon-user"></i></a></li>
+                    <li><a id="twitter" title="Follow me" href="https://www.twitter.com/fauzanqadri"><i class="icon-twitter"></i></a></li>
+                    <li><a id="github" title="Fork me on Github" href="https://www.github.com/fauzanqadri"><i class="icon-github"></i></a></li>
+                </ul>
+            </div> 
+		</div>
+		<div id="script">
+	    	<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+	        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+			<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+	        <script type="text/javascript">
+				$(document).ready(function () {
+                	$("#home, #contact, #about, #twitter, #github").tooltip({
+                  		'selector': '',
+                  		'placement': 'top'
+                	});
+              	});
+	
+	        </script>
 		</div>
     </body>
 </html>
